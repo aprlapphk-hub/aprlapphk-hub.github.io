@@ -46,7 +46,7 @@
 <p class="wordmark">apr<span>.</span>l</p>
 <h1>私隱政策</h1>
 <p class="en-title">Privacy Policy</p>
-<p class="meta">生效日期 Effective date：2026 年 10 月 17 日</p>
+<p class="meta">生效日期 Effective date：2026 年 10 月 24 日</p>
 <nav><a href="#zh">中文</a><a href="#en">English</a></nav>
 
 <section id="zh">
@@ -64,6 +64,7 @@
 <tr><td>收據內容</td><td>日期、商戶名稱及地址、金額、類別、付款方式、備註；如有需要，最多只會儲存卡號的<strong>最後 4 個數字</strong>，絕不儲存完整卡號。</td></tr>
 <tr><td>業務用途資料（選填）</td><td>對方與你的關係、目的、結果，以及對方稱呼。對方稱呼屬第三者資料，完全選填；我們不會要求對方的地址或電話。</td></tr>
 <tr><td>收入及業務資料</td><td>收入紀錄（日期、來源、金額、類型）、商業登記號碼頭 8 位、業務名稱、私人用途比例、自僱／僱員身份。</td></tr>
+<tr><td>收入報告（選用）</td><td>你選擇匯入的保險公司收入報告 PDF。PDF 只在伺服器記憶體中讀取，<strong>不會儲存</strong>；我們會先刪走姓名、身份證號碼、地址及婚姻狀況，只把收入數字交給 Google Gemini 讀取。匯入後只保存你確認的每月收入及 MPF 供款。</td></tr>
 <tr><td>報稅問卷答案</td><td>你為估算個人入息課稅及免稅額而填寫的答案（例如供款金額、受養人數目）。我們<strong>不會</strong>收集姓名或身份證號碼。</td></tr>
 <tr><td>AI 使用紀錄</td><td>你同意使用 AI 的時間及版本、每次 AI 讀單的時間及結果狀態（用作每月使用上限）。</td></tr>
 </table>
@@ -84,7 +85,7 @@
 <table>
 <tr><th>供應商</th><th>用途</th><th>處理地點</th></tr>
 <tr><td>Supabase</td><td>登入、資料庫、收據相片儲存（私人、加密傳輸）</td><td>新加坡</td></tr>
-<tr><td>Google Cloud（Gemini）</td><td>只在你同意後讀取收據相片</td><td>AI 處理在歐盟範圍內進行</td></tr>
+<tr><td>Google Cloud（Gemini）</td><td>只在你同意後讀取收據相片，以及已刪走個人資料的收入報告數字</td><td>AI 處理在歐盟範圍內進行</td></tr>
 <tr><td>GitHub</td><td>登入身份驗證</td><td>美國</td></tr>
 </table>
 <p>根據 Google Cloud 的條款，Google 不會用你的資料訓練或改良 AI 模型。我們已關閉 Google 的資料快取，Google 不會為加快處理而保存你的收據；Google 可能為防止濫用而短暫保留紀錄。AI 讀到的內容只是建議，你按「儲存」後才會記錄。</p>
@@ -137,6 +138,7 @@
 <li><strong>Receipt details:</strong> date, merchant name and address, amount, category, payment method, notes, and at most the <strong>last 4 digits</strong> of a card. We never store full card numbers.</li>
 <li><strong>Business-purpose details (optional):</strong> relationship, purpose, outcome and a name for the other party. The name is third-party data and fully optional; we never ask for their address or phone number.</li>
 <li><strong>Income and business details:</strong> income records, the first 8 digits of your Business Registration number, business name, private-use portions, self-employed/employee status.</li>
+<li><strong>Income reports (optional):</strong> an insurer's income report PDF you choose to import. It is read in server memory only and <strong>never stored</strong>; name, HK ID number, address and marital status are removed first, and only the income figures go to Google Gemini. We keep only the monthly income and MPF figures you confirm.</li>
 <li><strong>Tax questionnaire answers</strong> used to estimate Personal Assessment and allowances. We do <strong>not</strong> collect names or ID numbers.</li>
 <li><strong>AI usage:</strong> when and which version of the AI consent you gave, and the time and status of each AI reading (for the monthly limit).</li>
 </ul>
@@ -155,7 +157,7 @@
 <h2>3. Who processes it</h2>
 <ul>
 <li><strong>Supabase</strong> — sign-in, database and private photo storage — Singapore.</li>
-<li><strong>Google Cloud (Gemini)</strong> — reads receipt photos only after you agree — AI processing within the EU. Under Google Cloud's terms, Google does not use your data to train or improve AI models. We have turned off Google's data caching, so Google does not keep your receipts to speed up processing; it may keep records briefly to prevent abuse.</li>
+<li><strong>Google Cloud (Gemini)</strong> — reads receipt photos, and income-report figures with personal details removed, only after you agree — AI processing within the EU. Under Google Cloud's terms, Google does not use your data to train or improve AI models. We have turned off Google's data caching, so Google does not keep your receipts to speed up processing; it may keep records briefly to prevent abuse.</li>
 <li><strong>GitHub</strong> — sign-in — United States.</li>
 </ul>
 <p>Your data is therefore transferred outside Hong Kong to Singapore, the EU and the United States. We do not disclose it to anyone else unless the law requires it.</p>
